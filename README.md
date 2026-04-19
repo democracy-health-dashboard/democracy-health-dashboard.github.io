@@ -45,7 +45,7 @@ EventBridge Scheduler
 
 1. Fork or push this repo to GitHub
 2. **Settings → Pages → Deploy from branch → main → / (root)**
-3. Dashboard live at `https://YOUR_USERNAME.github.io/REPO_NAME/`
+3. Dashboard live at `https://dasumner.github.io/democratic-stress-dashboard/`
 
 ---
 
@@ -80,7 +80,7 @@ sam build
 sam deploy --guided
 
 # Parameters prompted:
-#   GithubRepo         → yourusername/dsi-site
+#   GithubRepo         → dasumner/democratic-stress-dashboard
 #   GithubBranch       → main
 #   SecretName         → dsi/secrets
 #   ScheduleExpression → rate(6 hours)
@@ -114,7 +114,7 @@ pip install -r requirements.txt
 
 export ANTHROPIC_API_KEY=sk-ant-...
 export GITHUB_TOKEN=ghp_...
-export GITHUB_REPO=yourusername/dsi-site
+export GITHUB_REPO=dasumner/democratic-stress-dashboard
 
 python agent.py
 ```

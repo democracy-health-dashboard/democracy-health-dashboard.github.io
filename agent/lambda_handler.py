@@ -5,7 +5,7 @@ Entry point for Lambda. Secrets are fetched from AWS Secrets Manager
 by secrets.py — NOT from environment variables.
 
 Lambda environment variables to set (non-sensitive, safe in config):
-  GITHUB_REPO       — e.g. "yourusername/dsi-site"
+  GITHUB_REPO       — e.g. "dasumner/democratic-stress-dashboard"
   GITHUB_BRANCH     — default: "main"
   DATA_FILE_PATH    — default: "data/metrics.json"
   DSI_SECRET_NAME   — Secrets Manager secret name, default: "dsi/secrets"

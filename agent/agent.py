@@ -9,7 +9,7 @@ Secrets (ANTHROPIC_API_KEY, GITHUB_TOKEN) are fetched from:
   - Environment variables when running locally
 
 Non-sensitive config via environment variables (safe to set in Lambda):
-    GITHUB_REPO         — e.g. "yourusername/dsi-site"
+    GITHUB_REPO         — e.g. "dasumner/democratic-stress-dashboard"
     GITHUB_BRANCH       — default: "main"
     DATA_FILE_PATH      — default: "data/metrics.json"
     DSI_SECRET_NAME     — Secrets Manager secret name, default: "dsi/secrets"
@@ -18,7 +18,7 @@ Non-sensitive config via environment variables (safe to set in Lambda):
 Local usage:
     export ANTHROPIC_API_KEY=sk-ant-...
     export GITHUB_TOKEN=ghp_...
-    export GITHUB_REPO=yourusername/dsi-site
+    export GITHUB_REPO=dasumner/democratic-stress-dashboard
     python agent.py
 """
 
