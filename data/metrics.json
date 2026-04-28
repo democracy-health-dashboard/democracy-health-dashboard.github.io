@@ -1,24 +1,10 @@
 {
-  "meta": {
-    "last_updated": "2026-04-19T00:00:00Z",
-    "agent_version": "1.0.0",
-    "run_count": 0
-  },
-  "current": {
-    "institutional": 42,
-    "economic": 38,
-    "civil_rights": 32,
-    "distraction": 87,
-    "gini": 51.8,
-    "composite_stress": 74
-  },
-  "summary": "Dashboard initialized with baseline data. Agent has not yet run.",
-  "alerts": [],
-  "sources_consulted": [],
-  "history": [
-    { "date": "2025-01", "institutional": 46, "economic": 41, "civil_rights": 36, "distraction": 82, "composite_stress": 69 },
-    { "date": "2025-02", "institutional": 44, "economic": 40, "civil_rights": 34, "distraction": 84, "composite_stress": 71 },
-    { "date": "2025-03", "institutional": 43, "economic": 39, "civil_rights": 33, "distraction": 85, "composite_stress": 72 },
-    { "date": "2025-04", "institutional": 42, "economic": 38, "civil_rights": 32, "distraction": 87, "composite_stress": 74 }
-  ]
+  "last_updated": "2026-04-28T03:59:29.973706",
+  "metrics": {
+    "institutional": 75,
+    "economic": 62,
+    "civil_rights": 80,
+    "distraction": 45,
+    "gini": 41.2
+  }
 }
