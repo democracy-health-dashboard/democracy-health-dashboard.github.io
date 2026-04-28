@@ -1,10 +1,11 @@
 {
-  "last_updated": "2026-04-28T03:59:29.973706",
+  "last_updated": "2026-04-28T04:05:49.850912",
   "metrics": {
     "institutional": 75,
     "economic": 62,
     "civil_rights": 80,
     "distraction": 45,
     "gini": 41.2
-  }
+  },
+  "composite_stress": 42.5
 }
