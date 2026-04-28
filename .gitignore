@@ -1,0 +1,52 @@
+# --- Secrets and Environment ---
+agent/.env
+.env
+secrets.py
+# (Only ignore secrets.py if you are storing hardcoded keys there. 
+# If it's just the logic to read .env, you can keep it.)
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# --- Virtual Environments ---
+.venv
+venv
+ENV
+env.bak
+venv.bak
+
+# --- Operating System ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Development Tools ---
+.vscode/
+.idea/
+*.swp
+*.swo
